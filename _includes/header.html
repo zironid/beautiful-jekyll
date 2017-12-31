@@ -1,5 +1,7 @@
 <!-- TODO this file has become a mess, refactor it -->
 
+{% include read_time.html %}
+
 {% if page.bigimg or page.title %}
 
 {% if page.bigimg %}
@@ -37,7 +39,7 @@
 		  
 		  {% if include.type == "post" %}
 			<span class="post-meta">Publicado el {{ page.date | date: "%-d" de "%B, %Y" }}</span>
-			{% include read_time.html %}
+			<span class="reading-time">***</span>
 		  {% endif %}
         </div>
       </div>
