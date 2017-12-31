@@ -1,16 +1,10 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Sobre el autor
+subtitle: Este soy yo, supongo
 ---
 
-My name is Inigo Montoya. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Mi nombre es Martín. Soy un estudiante de filosofía en la Universidad de la Sabana, católico, homeschooler, ávido jugador del [DOOM](https://es.wikipedia.org/wiki/Doom) clásico y aficionado a la ficción especulativa.
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Mis pensadores favoritos son [G. K. Chesterton](https://es.wikipedia.org/wiki/G._K._Chesterton), [Santo Tomás de Aquino](https://es.wikipedia.org/wiki/Tom%C3%A1s_de_Aquino) y [Aristóteles](https://es.wikipedia.org/wiki/Arist%C3%B3teles).
