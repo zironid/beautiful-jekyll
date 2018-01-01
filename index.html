@@ -19,7 +19,7 @@ use-site-title: true
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
+      {% octicon calendar %} Publicado el {{ post.date | date: "%-d de %B, %Y" }} | {% octicon clock %} Lectura: {% include read_time.html %} ({{ post.content | number_of_words }} palabras)
     </p>
 
     <div class="post-entry-container">
@@ -60,12 +60,12 @@ use-site-title: true
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Artículos más recientes</a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Artículos más antiguos &rarr;</a>
   </li>
   {% endif %}
 </ul>

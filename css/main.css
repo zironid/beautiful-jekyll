@@ -749,3 +749,10 @@ td.gutter {
 .gist, .gist-file table tr td {
   border: unset;
 }
+
+
+.octicon {
+  display: inline-block;
+  vertical-align: -5%;
+  fill: currentColor;
+}
