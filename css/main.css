@@ -756,3 +756,9 @@ td.gutter {
   vertical-align: -5%;
   fill: currentColor;
 }
+
+.blog-post {
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 50px;
+}
